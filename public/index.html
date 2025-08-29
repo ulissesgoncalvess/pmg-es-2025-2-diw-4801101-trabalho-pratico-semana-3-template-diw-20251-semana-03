@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Explore Capitólio">
+  <meta property="og:description" content="Descubra as melhores atrações de Capitólio.">
+  <meta property="og:type" content="website">
+  <title>Explore Capitólio</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">Explore <strong>Capitólio</strong></div>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#atracoes">Atrações</a></li>
+          <li><a href="#aluguéis">Aluguéis</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="btn-login">Login</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://picsum.photos/id/1018/1400/500" alt="Vista de Capitólio">
+      <div class="hero-overlay">
+        <h1>Explore Capitólio</h1>
+        <p>Descubra cânions, cachoeiras e aventuras inesquecíveis em Minas Gerais.</p>
+        <a class="btn" href="#atracoes">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section id="atracoes" class="section container">
+      <h2>Principais Atrações</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://picsum.photos/id/1025/400/220" alt="Cânions de Furnas">
+          <div class="card-body">
+            <h3>Atração 1</h3>
+            <p>Cânions de Furnas: paisagens incríveis e passeios de lancha.</p>
+            <a href="#" class="btn-sm">Saiba Mais</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/id/1015/400/220" alt="Mirante dos Cânions">
+          <div class="card-body">
+            <h3>Atração 2</h3>
+            <p>Mirante dos Cânions: um pôr do sol inesquecível.</p>
+            <a href="#" class="btn-sm">Saiba Mais</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/id/1024/400/220" alt="Cachoeiras">
+          <div class="card-body">
+            <h3>Atração 3</h3>
+            <p>Cachoeiras cristalinas para banhos refrescantes.</p>
+            <a href="#" class="btn-sm">Saiba Mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cadastro" class="section container">
+      <h2>Cadastre-se para receber informações</h2>
+      <form class="signup-form" action="#" method="post">
+        <div class="form-row">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+        </div>
+        <div class="form-row">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-row">
+          <label for="telefone">Telefone</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="(99) 99999-9999">
+        </div>
+        <button class="btn" type="submit">Cadastre-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contato" class="site-footer">
+    <div class="container footer-content">
+      <p>Informação de contato: contato@explorecapitolio.com.br</p>
+      <p>© 2025 Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>

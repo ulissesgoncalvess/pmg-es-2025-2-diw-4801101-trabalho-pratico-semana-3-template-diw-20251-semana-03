@@ -25,8 +25,7 @@ Rodapé com informações básicas sobre o site e contatos.
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Wireframe da home](public/wireframe.png)
 
 ## Print da home-page criada
 
